@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;   
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.input-task {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn-task {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #054b3d;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn-task:hover {
+    background-color: #8fac55;
+    color: #014739;
+}
+.btn-task:active {
+    opacity: 0.6;
+} 
+
+body {
+    background: url(/dist/img/todo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    background-color: #d1d1d1d2;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+.ul-task {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: #ffffff83;
+        border-radius: 10px;
+}
+
+.li-task {
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    min-height: 50px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    max-height: 200px;
+    overflow: auto;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.li-task:hover img {
+    opacity: 1;
+}
+.li-task p {
+    margin: 0 15px;
+    text-align: justify;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;   
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    color: #ffffffc0;
+    text-decoration: none;
+}
