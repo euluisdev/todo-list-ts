@@ -10,7 +10,7 @@ mesmo depois de fechar ou atualizara janela do navegador.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [![NPM](https://imgshields.io/npm/l/react)] para obter detalhes.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo **** para obter detalhes.
 
 ## Funcionalidades
 
